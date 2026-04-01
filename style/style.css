@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(21, 122, 139);
+    background-color: rgb(197, 34, 22);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -10,4 +10,12 @@ body{
     margin-top: 80px;
     color: white;
     font-size: 20px
+}
+
+.imagemfixa{
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    margin-bottom: 30px;
+    right: 30px;
 }
