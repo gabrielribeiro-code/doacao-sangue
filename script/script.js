@@ -24,7 +24,7 @@ form.addEventListener('submit', function(e){
     if(idade < 16) return alert("Deve ser maior de 16 anos!");
     if(peso <= 50) return alert("O peso minímo é de 50kg");
     if(telefone.length < 9) return alert("Telefone Inválido");
-
+    
 
 
 
