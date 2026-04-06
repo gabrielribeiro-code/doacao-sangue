@@ -19,7 +19,7 @@ form.addEventListener('submit', function(e){
 
     //validações
 
-    if(nome.lenght < 14) return alert("Nome Inválido tem que ter nome e sobrenome")
+    if(nome.split(" ").length < 2 ) return alert("Nome Inválido tem que ter nome e sobrenome");
     if(!email.includes('@')) return alert("Email Inválido");
     if(idade < 16) return alert("Deve ser maior de 16 anos!");
     if(peso <= 50) return alert("O peso minímo é de 50kg");
