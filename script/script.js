@@ -26,8 +26,67 @@ form.addEventListener('submit', function(e){
     if(telefone.length < 9) return alert("Telefone Inválido");
     if (cidade == "") return alert("Deve colocar obrigátorio a cidade!");
     if(estado =="") return alert("Deve colocar o obrigátoriamente o Estado!");
+    
+    switch (tipoSangue){
+        
+        case "A+" :
+        
+        alert("Você poderá doar sangue para os tipos: A+ e AB+"); 
+        alert("E você podera receber Sangue de: A+, A-, O+, O-");
+        break;
+
+        case "A-" :
+        
+        alert("Você poderá doar sangue para os tipos: A+, A-, AB+, AB-"); 
+        alert("E você podera receber Sangue de: A-, O-");
+        break;
 
 
+        case "B+" :
+
+        alert("Você poderá doar sangue para os tipos: B+, AB+"); 
+        alert("E você podera receber Sangue de: B+, B-, O+, O-");
+        break;
+
+        case "B-" :
+
+        alert("Você poderá doar sangue para os tipos: B+, B-, AB+, AB-"); 
+        alert("E você podera receber Sangue de: B-, O-");
+        break;
+
+        case "AB+" :
+
+        alert("Você poderá doar sangue para os tipos: AB+"); 
+        alert("E você podera receber Sangue de: A+, A-, B+, B-, AB+, AB-, O+, O-");
+
+        break;
+
+        case "AB-" :
+
+        alert("Você poderá doar sangue para os tipos: AB+, AB-"); 
+        alert("E você podera receber Sangue de: A-, B-, AB-, O-");
+        break;
+
+        case "O+" :
+
+        alert("Você poderá doar sangue para os tipos: A+, B+, AB+, O+"); 
+        alert("E você podera receber Sangue de: O+, O-");
+        break;
+
+
+        case "O-" :
+
+        alert("Você poderá doar sangue para os tipos: A+, A-, B+, B-, AB+, AB-, O+, O-"); 
+        alert("E você podera receber Sangue de: O-");
+        break;
+
+        default:
+
+        alert("Tipo de Sangue Inválido");
+
+    }
+
+    
 
 
 
@@ -35,8 +94,7 @@ document.getElementById("resultado").innerHTML =
     "Cadastro realizado com sucesso!<br>" +
     "Nome: " + nome + "<br>" +
     "Email: " + email + "<br>" +
-    "Telefone: " + telefone + "<br>" +
-    "Cidade: " + cidade;
+    "Tipo Sanguíneo" + tipoSangue;
 
 
 })
