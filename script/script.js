@@ -32,52 +32,52 @@ form.addEventListener('submit', function(e){
         case "A+" :
         
         alert("Você poderá doar sangue para os tipos: A+ e AB+"); 
-        alert("E você podera receber Sangue de: A+, A-, O+, O-");
+        alert("E você podera receber Sangue do tipos: A+, A-, O+, O-");
         break;
 
         case "A-" :
         
         alert("Você poderá doar sangue para os tipos: A+, A-, AB+, AB-"); 
-        alert("E você podera receber Sangue de: A-, O-");
+        alert("E você podera receber Sangue do tipos: A-, O-");
         break;
 
 
         case "B+" :
 
         alert("Você poderá doar sangue para os tipos: B+, AB+"); 
-        alert("E você podera receber Sangue de: B+, B-, O+, O-");
+        alert("E você podera receber Sangue do tipos: B+, B-, O+, O-");
         break;
 
         case "B-" :
 
         alert("Você poderá doar sangue para os tipos: B+, B-, AB+, AB-"); 
-        alert("E você podera receber Sangue de: B-, O-");
+        alert("E você podera receber Sangue do tipos: B-, O-");
         break;
 
         case "AB+" :
 
         alert("Você poderá doar sangue para os tipos: AB+"); 
-        alert("E você podera receber Sangue de: A+, A-, B+, B-, AB+, AB-, O+, O-");
+        alert("E você podera receber Sangue do tipos: A+, A-, B+, B-, AB+, AB-, O+, O-");
 
         break;
 
         case "AB-" :
 
         alert("Você poderá doar sangue para os tipos: AB+, AB-"); 
-        alert("E você podera receber Sangue de: A-, B-, AB-, O-");
+        alert("E você podera receber Sangue do tipos: A-, B-, AB-, O-");
         break;
 
         case "O+" :
 
         alert("Você poderá doar sangue para os tipos: A+, B+, AB+, O+"); 
-        alert("E você podera receber Sangue de: O+, O-");
+        alert("E você podera receber Sangue do tipos: O+, O-");
         break;
 
 
         case "O-" :
 
         alert("Você poderá doar sangue para os tipos: A+, A-, B+, B-, AB+, AB-, O+, O-"); 
-        alert("E você podera receber Sangue de: O-");
+        alert("E você podera receber Sangue do tipos: O-");
         break;
 
         default:
@@ -94,7 +94,7 @@ document.getElementById("resultado").innerHTML =
     "Cadastro realizado com sucesso!<br>" +
     "Nome: " + nome + "<br>" +
     "Email: " + email + "<br>" +
-    "Tipo Sanguíneo" + tipoSangue;
+    "Tipo Sanguíneo: " + tipoSangue;
 
 
 })
