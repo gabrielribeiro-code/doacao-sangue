@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(197, 41, 30);
+    background-color: rgba(13, 125, 199, 0.781);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -33,6 +33,15 @@ body{
     left: 100px;
     border: 5px solid rgb(231, 226, 226);
     border-radius: 8px;
+
+}
+
+input{
+    border: solid red;
+    border-radius: 5px;
+}
+
+.borda{
 
 }
 
